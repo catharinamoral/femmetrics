@@ -1,0 +1,14 @@
+insert into FORNECEDOR(ID_FORNECEDOR,NOME_FANTASIA,RAZAO_SOCIAL,CNPJ, CATEGORIA, 
+						TELEFONE, EMAIL, QTD_FUNCIONARIOS, ULTIMA_COMPRA, SITUACAO) 
+               values ('6c2cc2ed-b1fe-45ab-a762-aa0bddd55942', 'ARMARINHOS FERNANDO', 'ARMARINHOS FERNANDO LTDA', '48.076.228/0001-91', 'papelaria',
+						'(11)3325-0400', 'valdecir@armarinhos-fernando.com.br', 5.000, '2021-10-20', 'A');
+insert into FORNECEDOR(ID_FORNECEDOR,NOME_FANTASIA,RAZAO_SOCIAL,CNPJ, CATEGORIA, 
+						TELEFONE, EMAIL, QTD_FUNCIONARIOS, ULTIMA_COMPRA, SITUACAO) 
+               values ('cff6c558-26e9-422e-9e8f-260c8ab146f6', 'GENERALI PLASTICOS', 'GENERALI PLASTICOS LTDA', '44.028.158/0001-45', 'materia_prima',
+						'(19)8133-0607', 'generaliplasticos@gmail.com', 300, '2020-05-10', 'C');
+
+insert into DOCUMENTOS(ID_FORNECEDOR, FICHA_CADASTRAL, CADASTRO_SOCIAL, SINTEGRA, CONTA_BANCARIA) 
+               values ('6c2cc2ed-b1fe-45ab-a762-aa0bddd55942', false, false, true, true);
+
+insert into DOCUMENTOS(ID_FORNECEDOR, FICHA_CADASTRAL, CADASTRO_SOCIAL, SINTEGRA, CONTA_BANCARIA) 
+               values ('cff6c558-26e9-422e-9e8f-260c8ab146f6', false, false, true, true);
